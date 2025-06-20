@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
           switch (searchTypeValue) {
             case "section":
-              matchField = section.number.toLowerCase()
+              matchField = String(section.number).toLowerCase()
               break
             case "title":
               matchField = section.title.toLowerCase()

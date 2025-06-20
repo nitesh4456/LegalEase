@@ -202,77 +202,87 @@ document.addEventListener("DOMContentLoaded", () => {
       quickReferenceGrid.appendChild(refItem)
     })
   }
-function performSearch() {
-  const query = searchInput.value.trim().toLowerCase()
-  const actFilterValue = actFilter.value
-  const searchTypeValue = searchType.value
 
-  if (!query) {
-    clearSearch()
-    return
-  }
+  function performSearch() {
+    const query = searchInput.value.trim().toLowerCase()
+    const actFilterValue = actFilter.value
+    const searchTypeValue = searchType.value
 
-  currentSearchResults = []
-
-  legalData.acts.forEach((act) => {
-    if (actFilterValue !== "all" && act.id !== actFilterValue) {
+    if (!query) {
+      clearSearch()
       return
     }
 
-    act.chapters.forEach((chapter) => {
-      chapter.sections.forEach((section) => {
-        let isMatch = false
-        let matchType = ""
-        let matchText = ""
+    currentSearchResults = []
 
-        switch (searchTypeValue) {
-          case "section":
-            isMatch = section.number.toLowerCase().includes(query)
-            matchType = "Section Number"
-            matchText = section.number
-            break
-          case "title":
-            isMatch = section.title.toLowerCase().includes(query)
-            matchType = "Section Title"
-            matchText = section.title
-            break
-          case "content":
-            isMatch = section.content.toLowerCase().includes(query)
-            matchType = "Section Content"
-            matchText = highlightMatch(section.content, query)
-            break
-          default: // 'all' but excluding keywords
-            if (section.number.toLowerCase().includes(query)) {
-              isMatch = true
+    legalData.acts.forEach((act) => {
+      // Skip if act filter is applied and doesn't match
+      if (actFilterValue !== "all" && act.id !== actFilterValue) {
+        return
+      }
+
+      act.chapters.forEach((chapter) => {
+        chapter.sections.forEach((section) => {
+          let isMatch = false
+          let matchType = ""
+          let matchText = ""
+
+          switch (searchTypeValue) {
+            case "section":
+              isMatch = section.number.toLowerCase().includes(query)
               matchType = "Section Number"
               matchText = section.number
-            } else if (section.title.toLowerCase().includes(query)) {
-              isMatch = true
+              break
+            case "title":
+              isMatch = section.title.toLowerCase().includes(query)
               matchType = "Section Title"
               matchText = section.title
-            } else if (section.content.toLowerCase().includes(query)) {
-              isMatch = true
+              break
+            case "content":
+              isMatch = section.content.toLowerCase().includes(query)
               matchType = "Section Content"
               matchText = highlightMatch(section.content, query)
-            }
-        }
+              break
+            case "keywords":
+              isMatch = section.keywords.some((keyword) => keyword.toLowerCase().includes(query))
+              matchType = "Keywords"
+              matchText = section.keywords.filter((keyword) => keyword.toLowerCase().includes(query)).join(", ")
+              break
+            default: // 'all'
+              if (section.number.toLowerCase().includes(query)) {
+                isMatch = true
+                matchType = "Section Number"
+                matchText = section.number
+              } else if (section.title.toLowerCase().includes(query)) {
+                isMatch = true
+                matchType = "Section Title"
+                matchText = section.title
+              } else if (section.content.toLowerCase().includes(query)) {
+                isMatch = true
+                matchType = "Section Content"
+                matchText = highlightMatch(section.content, query)
+              } else if (section.keywords.some((keyword) => keyword.toLowerCase().includes(query))) {
+                isMatch = true
+                matchType = "Keywords"
+                matchText = section.keywords.filter((keyword) => keyword.toLowerCase().includes(query)).join(", ")
+              }
+          }
 
-        if (isMatch) {
-          currentSearchResults.push({
-            act: act,
-            chapter: chapter,
-            section: section,
-            matchType: matchType,
-            matchText: matchText,
-          })
-        }
+          if (isMatch) {
+            currentSearchResults.push({
+              act: act,
+              chapter: chapter,
+              section: section,
+              matchType: matchType,
+              matchText: matchText,
+            })
+          }
+        })
       })
     })
-  })
 
-  displaySearchResults()
-}
-
+    displaySearchResults()
+  }
 
   function highlightMatch(text, query) {
     const regex = new RegExp(`(${escapeRegExp(query)})`, "gi")
@@ -310,7 +320,9 @@ function performSearch() {
           <div class="result-match">
             <strong>Match:</strong> <span class="match-text">${result.matchText}</span>
           </div>
-          ${section.keywords ? `<div class="result-keywords"><small><strong>Keywords:</strong> ${section.keywords.join(", ")}</small></div>` : ""}
+          <div class="result-keywords">
+            <small><strong>Keywords:</strong> ${result.section.keywords.join(", ")}</small>
+          </div>
         </div>
       `
 

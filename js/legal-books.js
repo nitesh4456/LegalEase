@@ -79,47 +79,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
     currentSearchResults = []
 
-    const fuseOptions = {
-      includeScore: true,
-      threshold: 0.3,
-      ignoreLocation: true,
-      useExtendedSearch: true,
-      keys: []
-    }
-
-    switch (searchTypeValue) {
-      case "section":
-        fuseOptions.keys = ["number"]
-        break
-      case "title":
-        fuseOptions.keys = ["title"]
-        break
-      case "content":
-        fuseOptions.keys = ["content"]
-        break
-      default:
-        fuseOptions.keys = ["number", "title", "content"]
-    }
-
     legalData.acts.forEach((act) => {
       if (actFilterValue !== "all" && act.id !== actFilterValue) return
 
       act.chapters.forEach((chapter) => {
-        const fuse = new Fuse(chapter.sections, fuseOptions)
-        const results = fuse.search(query)
+        chapter.sections.forEach((section) => {
+          let matchField = ""
 
-        results.forEach((res) => {
-          const section = res.item
-          const matchText = `${section.title} ${section.content} ${section.number}`.toLowerCase()
+          switch (searchTypeValue) {
+            case "section":
+              matchField = section.number.toLowerCase()
+              break
+            case "title":
+              matchField = section.title.toLowerCase()
+              break
+            case "content":
+              matchField = section.content.toLowerCase()
+              break
+            default:
+              matchField = `${section.number} ${section.title} ${section.content}`.toLowerCase()
+          }
 
-          // ✅ Post-filter: Must contain the query as a substring
-          if (!matchText.includes(query)) return
-
-          currentSearchResults.push({
-            act,
-            chapter,
-            section
-          })
+          if (matchField.includes(query)) {
+            currentSearchResults.push({
+              act,
+              chapter,
+              section
+            })
+          }
         })
       })
     })

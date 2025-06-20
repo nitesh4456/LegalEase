@@ -119,9 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
           currentSearchResults.push({
             act: act,
             chapter: chapter,
-            section: section,
-            matchType: searchTypeValue === "all" ? "Fuzzy Match" : searchTypeValue,
-            matchText: highlightMatch(section.content, query)
+            section: section
           })
         })
       })
@@ -131,7 +129,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function highlightMatch(text, query) {
-    const regex = new RegExp(`(${escapeRegExp(query)})`, "gi")
+    const terms = query.split(/\s+/).filter(Boolean)
+    const regex = new RegExp(`(${terms.map(escapeRegExp).join("|")})`, "gi")
     return text.replace(regex, "<mark>$1</mark>")
   }
 
@@ -148,9 +147,14 @@ document.addEventListener("DOMContentLoaded", () => {
     resultsCount.textContent = `Search Results (${currentSearchResults.length} found)`
     resultsList.innerHTML = ""
 
+    const query = searchInput.value.trim()
+
     currentSearchResults.forEach((result) => {
       const resultItem = document.createElement("div")
       resultItem.className = "search-result-item"
+
+      const highlightedTitle = highlightMatch(result.section.title, query)
+      const highlightedContent = highlightMatch(result.section.content, query)
 
       resultItem.innerHTML = `
         <div class="result-header">
@@ -158,14 +162,10 @@ document.addEventListener("DOMContentLoaded", () => {
             <span class="result-act">${result.act.title}</span>
             <span class="result-chapter">${result.chapter.title}</span>
           </div>
-          <span class="result-match-type">${result.matchType}</span>
         </div>
         <div class="result-section">
-          <h4>Section ${result.section.number}: ${result.section.title}</h4>
-          <p class="result-content">${result.section.content}</p>
-          <div class="result-match">
-            <strong>Match:</strong> <span class="match-text">${result.matchText}</span>
-          </div>
+          <h4>Section ${result.section.number}: ${highlightedTitle}</h4>
+          <p class="result-content">${highlightedContent}</p>
         </div>
       `
 

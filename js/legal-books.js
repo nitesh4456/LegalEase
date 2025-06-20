@@ -138,46 +138,47 @@ document.addEventListener("DOMContentLoaded", () => {
     return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
   }
 
-  function displaySearchResults() {
-    if (currentSearchResults.length === 0) {
-      searchResults.classList.add("hidden")
-      return
-    }
+function displaySearchResults() {
+  if (currentSearchResults.length === 0) {
+    searchResults.classList.add("hidden")
+    return
+  }
 
-    resultsCount.textContent = `Search Results (${currentSearchResults.length} found)`
-    resultsList.innerHTML = ""
+  resultsCount.textContent = `Search Results (${currentSearchResults.length} found)`
+  resultsList.innerHTML = ""
 
-    const query = searchInput.value.trim()
+  const query = searchInput.value.trim()
 
-    currentSearchResults.forEach((result) => {
-      const resultItem = document.createElement("div")
-      resultItem.className = "search-result-item"
+  currentSearchResults.forEach((result) => {
+    const resultItem = document.createElement("div")
+    resultItem.className = "search-result-item"
 
-      const highlightedTitle = highlightMatch(result.section.title, query)
-      const highlightedContent = highlightMatch(result.section.content, query)
+    const highlightedTitle = highlightMatch(result.section.title, query)
+    const highlightedContent = highlightMatch(result.section.content, query)
 
-      resultItem.innerHTML = `
-        <div class="result-header">
-          <div class="result-act-info">
-            <span class="result-act">${result.act.title}</span>
-            <span class="result-chapter">${result.chapter.title}</span>
-          </div>
+    resultItem.innerHTML = `
+      <div class="result-header">
+        <div class="result-act-info">
+          <span class="result-act">${result.act.title}</span>
+          <span class="result-chapter">${result.chapter.title}</span>
         </div>
-        <div class="result-section">
-          <h4>Section ${result.section.number}: ${highlightedTitle}</h4>
-          <p class="result-content">${highlightedContent}</p>
-        </div>
-      `
+      </div>
+      <div class="result-section">
+        <h4>Section ${result.section.number}: ${highlightedTitle}</h4>
+        <p class="result-content">${highlightedContent}</p>
+      </div>
+    `
 
-      resultItem.addEventListener("click", () => {
-        navigateToSection(result.act.id, result.section.id)
-      })
-
-      resultsList.appendChild(resultItem)
+    resultItem.addEventListener("click", () => {
+      navigateToSection(result.act.id, result.section.id)
     })
 
-    searchResults.classList.remove("hidden")
-  }
+    resultsList.appendChild(resultItem)
+  })
+
+  searchResults.classList.remove("hidden")
+}
+
 
   function clearSearch() {
     searchInput.value = ""

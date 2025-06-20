@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Legal Books & Acts - LegalEase</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
 <body>
   <!-- Navigation -->
@@ -62,7 +62,7 @@
       <div class="card-body">
         <div class="search-form">
           <div class="search-input-group">
-            <input type="text" id="legal-search" placeholder="Search for sections, keywords, or topics...">
+            <input type="text" id="legal-search" placeholder="Search for sections, titles, or content...">
             <button class="btn btn-primary" id="search-btn">
               <i class="fas fa-search"></i>
             </button>
@@ -84,7 +84,6 @@
                 <option value="section">Section Number</option>
                 <option value="title">Section Title</option>
                 <option value="content">Section Content</option>
-                <option value="keywords">Keywords</option>
               </select>
             </div>
           </div>
@@ -118,8 +117,6 @@
           <i class="fas fa-file-alt"></i> BSA 2023
         </button>
       </div>
-
-      <!-- Tab contents will be populated by JavaScript -->
       <div id="tab-contents">
         <!-- Content will be loaded here -->
       </div>
@@ -147,7 +144,9 @@
     </div>
   </div>
 
+  <!-- Scripts -->
   <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
   <script src="js/legal-books.js"></script>
 </body>
 </html>

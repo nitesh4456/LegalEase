@@ -11037,5 +11037,34 @@
         }
       ]
     }
-  ]
+  ],
+  "quickReference": {
+    "bns": {
+      "title": "BNS - Common Offences",
+      "sections": [
+        { "section": "103", "title": "Murder" },
+        { "section": "115", "title": "Voluntarily causing hurt" },
+        { "section": "303", "title": "Theft" },
+        { "section": "318", "title": "Cheating" }
+      ]
+    },
+    "bnss": {
+      "title": "BNSS - Procedures",
+      "sections": [
+        { "section": "35", "title": "FIR Registration" },
+        { "section": "41", "title": "Arrest without warrant" },
+        { "section": "479", "title": "Bail provisions" },
+        { "section": "173", "title": "Charge sheet" }
+      ]
+    },
+    "bsa": {
+      "title": "BSA - Evidence Rules",
+      "sections": [
+        { "section": "3", "title": "Relevancy of facts" },
+        { "section": "45", "title": "Expert opinion" },
+        { "section": "60", "title": "Oral evidence" },
+        { "section": "65", "title": "Electronic evidence" }
+      ]
+    }
+  }
 }

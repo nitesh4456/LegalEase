@@ -7,7 +7,7 @@
       "chapters": [
         {
           "id": "bns-ch1",
-          "title": "Chapter I — Preliminary (Sections 1–3)",
+          "title": "Chapter I — Preliminary",
           "sections": [
             {
               "id": "bns-1",
@@ -43,7 +43,7 @@
         },
         {
           "id": "bns-ch2",
-          "title": "Chapter II — Of Punishments (Sections 4–13)",
+          "title": "Chapter II — Of Punishments",
           "sections": [
             {
               "id": "bns-4",
@@ -139,7 +139,7 @@
         },
         {
           "id": "bns-ch3",
-          "title": "Chapter III — General Exceptions (Sections 14–44)",
+          "title": "Chapter III — General Exceptions",
           "sections": [
             {
               "id": "bns-13",
@@ -465,7 +465,7 @@
         },
         {
           "id": "bns-ch4",
-          "title": "Chapter IV — Of Abetment, Criminal Conspiracy and Attempt (Sections 45–62)",
+          "title": "Chapter IV — Of Abetment, Criminal Conspiracy and Attempt",
           "sections": [
             {
               "id": "bns-45",
@@ -651,7 +651,7 @@
         },
         {
           "id": "bns-ch5",
-          "title": "Chapter V — Of Offences Against Women and Children (Sections 63–99)",
+          "title": "Chapter V — Of Offences against Women and Children",
           "sections": [
             {
               "id": "bns-63",
@@ -1027,7 +1027,7 @@
         },
         {
           "id": "bns-ch6",
-          "title": "Chapter VI — Of Offences Affecting the Human Body (Sections 100–146)",
+          "title": "Chapter VI — Of Offences Affecting the Human Body",
           "sections": [
             {
               "id": "bns-100",
@@ -1503,7 +1503,7 @@
         },
         {
           "id": "bns-ch7",
-          "title": "Chapter VII — Of Offences Against the State (Sections 147–158)",
+          "title": "Chapter VII — Of Offences Against the State",
           "sections": [
             {
               "id": "bns-147",
@@ -1629,7 +1629,7 @@
         },
         {
           "id": "bns-ch8",
-          "title": "Chapter VIII — Of Offences Relating to the Army, Navy and Air Force (Sections 159–168)",
+          "title": "Chapter VIII — Of Offences Relating to the Army, Navy and Air Force",
           "sections": [
             {
               "id": "bns-159",
@@ -1735,7 +1735,7 @@
         },
         {
           "id": "bns-ch9",
-          "title": "Chapter IX — Of Offences Relating to Elections (Sections 169–177)",
+          "title": "Chapter IX — Of Offences Relating to Elections",
           "sections": [
             {
               "id": "bns-169",
@@ -1831,7 +1831,7 @@
         },
         {
           "id": "bns-ch10",
-          "title": "Chapter X — Of Offences Relating to Coins, Bank‑Notes, Currency‑Notes and Government Stamps (Sections 178–188)",
+          "title": "Chapter X — Of Offences Relating to Coins, Bank‑Notes, Currency‑Notes and Government Stamps",
           "sections": [
             {
               "id": "bns-178",
@@ -1947,7 +1947,7 @@
         },
         {
           "id": "bns-ch11",
-          "title": "Chapter XI — Of Offences Against the Public Tranquillity (Sections 189–197)",
+          "title": "Chapter XI — Of Offences Against the Public Tranquillity",
           "sections": [
             {
               "id": "bns-189",
@@ -2043,7 +2043,7 @@
         },
         {
           "id": "bns-ch12",
-          "title": "Chapter XII — Of Offences By or Relating to Public Servants (Sections 198–205)",
+          "title": "Chapter XII — Of Offences By or Relating to Public Servants",
           "sections": [
             {
               "id": "bns-198",
@@ -2129,7 +2129,7 @@
         },
         {
           "id": "bns-ch13",
-          "title": "Chapter XIII — Of Contempt of Lawful Authority of Public Servants (Sections 206–226)",
+          "title": "Chapter XIII — Of Contempt of Lawful Authority of Public Servants",
           "sections": [
             {
               "id": "bns-206",
@@ -2345,7 +2345,7 @@
         },
         {
           "id": "bns-ch14",
-          "title": "Chapter XIV — Of False Evidence and Offences Against Public Justice (Sections 227–269)",
+          "title": "Chapter XIV — Of False Evidence and Offences Against Public Justice",
           "sections": [
             {
               "id": "bns-227",
@@ -2781,7 +2781,7 @@
         },
         {
           "id": "bns-ch15",
-          "title": "Chapter XV — Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals (Sections 270–297)",
+          "title": "Chapter XV — Of Offences Affecting the Public Health, Safety, Convenience, Decency and Morals",
           "sections": [
             {
               "id": "bns-270",
@@ -3067,7 +3067,7 @@
         },
         {
           "id": "bns-ch16",
-          "title": "Chapter XVI — Of Offences Relating to Religion (Sections 298–302)",
+          "title": "Chapter XVI — Of Offences Relating to Religion",
           "sections": [
             {
               "id": "bns-298",
@@ -3123,7 +3123,7 @@
         },
         {
           "id": "bns-ch17",
-          "title": "Chapter XVII — Of Offences Against Property (Sections 303–334)",
+          "title": "Chapter XVII — Of Offences Against Property",
           "sections": [
             {
               "id": "bns-303",
@@ -3449,7 +3449,7 @@
         },
         {
           "id": "bns-ch18",
-          "title": "Chapter XVIII — Of Offences Relating to Documents and to Property Marks (Sections 335–350)",
+          "title": "Chapter XVIII — Of Offences Relating to Documents and to Property Marks",
           "sections": [
             {
               "id": "bns-335",
@@ -3615,7 +3615,7 @@
         },
         {
           "id": "bns-ch19",
-          "title": "Chapter XIX — Of Criminal Intimidation, Insult, Annoyance, Defamation, Etc. (Sections 351–357)",
+          "title": "Chapter XIX — Of Criminal Intimidation, Insult, Annoyance, Defamation, Etc.",
           "sections": [
             {
               "id": "bns-351",
@@ -3691,7 +3691,7 @@
         },
         {
           "id": "bns-ch20",
-          "title": "Chapter XX — Repeal and Savings (Section 358)",
+          "title": "Chapter XX — Repeal and Savings",
           "sections": [
             {
               "id": "bns-358",
@@ -3714,7 +3714,7 @@
       "chapters": [
         {
           "id": "bnss-ch1",
-          "title": "Chapter I — Preliminary (Sections 1–5)",
+          "title": "Chapter I — Preliminary",
           "sections": [
             {
               "id": "bnss-1",
@@ -3770,7 +3770,7 @@
         },
         {
           "id": "bnss-ch2",
-          "title": "Chapter II — Constitution of Criminal Courts and Offices (Sections 6–20)",
+          "title": "Chapter II — Constitution of Criminal Courts and Offices",
           "sections": [
             {
               "id": "bnss-6",
@@ -3926,7 +3926,7 @@
         },
         {
           "id": "bnss-ch3",
-          "title": "Chapter III — Power of Courts (Sections 21–29)",
+          "title": "Chapter III — Power of Courts",
           "sections": [
             {
               "id": "bnss-21",
@@ -4022,7 +4022,7 @@
         },
         {
           "id": "bnss-ch4",
-          "title": "Chapter IV — Powers of Superior Officers of Police and Aid to the Magistrates and the Police (Sections 30–34)",
+          "title": "Chapter IV — Powers of Superior Officers of Police and Aid to the Magistrates and the Police",
           "sections": [
             {
               "id": "bnss-30",
@@ -4078,7 +4078,7 @@
         },
         {
           "id": "bnss-ch5",
-          "title": "Chapter V — Arrest of Persons (Sections 35–62)",
+          "title": "Chapter V — Arrest of Persons",
           "sections": [
             {
               "id": "bnss-35",
@@ -4364,7 +4364,7 @@
         },
         {
           "id": "bnss-ch6",
-          "title": "Chapter VI — Processes to Compel Appearance (Sections 63–93)",
+          "title": "Chapter VI — Processes to Compel Appearance",
           "sections": [
             {
               "id": "bnss-63",
@@ -4680,7 +4680,7 @@
         },
         {
           "id": "bnss-ch7",
-          "title": "Chapter VII — Processes to Compel the Production of Things (Sections 94–110)",
+          "title": "Chapter VII — Processes to Compel the Production of Things",
           "sections": [
             {
               "id": "bnss-94",
@@ -4856,7 +4856,7 @@
         },
         {
           "id": "bnss-ch8",
-          "title": "Chapter VIII — Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property (Sections 111–124)",
+          "title": "Chapter VIII — Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
           "sections": [
             {
               "id": "bnss-111",
@@ -5002,7 +5002,7 @@
         },
         {
           "id": "bnss-ch9",
-          "title": "Chapter IX — Security for Keeping the Peace and for Good Behaviour (Sections 125–143)",
+          "title": "Chapter IX — Security for Keeping the Peace and for Good Behaviour",
           "sections": [
             {
               "id": "bnss-125",
@@ -5198,7 +5198,7 @@
         },
         {
           "id": "bnss-ch10",
-          "title": "Chapter X — Order for Maintenance of Wives, Children and Parents (Sections 144–147)",
+          "title": "Chapter X — Order for Maintenance of Wives, Children and Parents",
           "sections": [
             {
               "id": "bnss-144",
@@ -5244,7 +5244,7 @@
         },
         {
           "id": "bnss-ch11",
-          "title": "Chapter XI — Maintenance of Public Order and Tranquillity (Sections 148–167)",
+          "title": "Chapter XI — Maintenance of Public Order and Tranquillity",
           "sections": [
             {
               "id": "bnss-148",
@@ -5450,7 +5450,7 @@
         },
         {
           "id": "bnss-ch12",
-          "title": "Chapter XII — Preventive Action of the Police (Sections 168–172)",
+          "title": "Chapter XII — Preventive Action of the Police",
           "sections": [
             {
               "id": "bnss-168",
@@ -5506,7 +5506,7 @@
         },
         {
           "id": "bnss-ch13",
-          "title": "Chapter XIII — Information to the Police and Their Powers to Investigate (Sections 173–196)",
+          "title": "Chapter XIII — Information to the Police and Their Powers to Investigate",
           "sections": [
             {
               "id": "bnss-173",
@@ -5752,7 +5752,7 @@
         },
         {
           "id": "bnss-ch14",
-          "title": "Chapter XIV — Jurisdiction of the Criminal Courts in Inquiries and Trials (Sections 197–209)",
+          "title": "Chapter XIV — Jurisdiction of the Criminal Courts in Inquiries and Trials",
           "sections": [
             {
               "id": "bnss-197",
@@ -5888,7 +5888,7 @@
         },
         {
           "id": "bnss-ch15",
-          "title": "Chapter XV — Conditions Requisite for Initiation of Proceedings (Sections 210–222)",
+          "title": "Chapter XV — Conditions Requisite for Initiation of Proceedings",
           "sections": [
             {
               "id": "bnss-210",
@@ -6024,7 +6024,7 @@
         },
         {
           "id": "bnss-ch16",
-          "title": "Chapter XVI — Complaints to Magistrates (Sections 223–226)",
+          "title": "Chapter XVI — Complaints to Magistrates",
           "sections": [
             {
               "id": "bnss-223",
@@ -6070,7 +6070,7 @@
         },
         {
           "id": "bnss-ch17",
-          "title": "Chapter XVII — Commencement of Proceedings before Magistrates (Sections 227–233)",
+          "title": "Chapter XVII — Commencement of Proceedings before Magistrates",
           "sections": [
             {
               "id": "bnss-227",
@@ -6146,7 +6146,7 @@
         },
         {
           "id": "bnss-ch18",
-          "title": "Chapter XVIII — The Charge (Sections 234–247)",
+          "title": "Chapter XVIII — The Charge",
           "sections": [
             {
               "id": "bnss-234",
@@ -6292,7 +6292,7 @@
         },
         {
           "id": "bnss-ch19",
-          "title": "Chapter XIX — Trial before a Court of Session (Sections 248–260)",
+          "title": "Chapter XIX — Trial before a Court of Session",
           "sections": [
             {
               "id": "bnss-248",
@@ -6428,7 +6428,7 @@
         },
         {
           "id": "bnss-ch20",
-          "title": "Chapter XX — Trial of Warrant‑Cases by Magistrates (Sections 261–273)",
+          "title": "Chapter XX — Trial of Warrant-Cases by Magistrates",
           "sections": [
             {
               "id": "bnss-261",
@@ -6564,7 +6564,7 @@
         },
         {
           "id": "bnss-ch21",
-          "title": "Chapter XXI — Trial of Summons‑Cases by Magistrates (Sections 274–282)",
+          "title": "Chapter XXI — Trial of Summons-Cases by Magistrates",
           "sections": [
             {
               "id": "bnss-274",
@@ -6660,7 +6660,7 @@
         },
         {
           "id": "bnss-ch22",
-          "title": "Chapter XXII — Summary Trials (Sections 283–288)",
+          "title": "Chapter XXII — Summary Trials",
           "sections": [
             {
               "id": "bnss-283",
@@ -6726,7 +6726,7 @@
         },
         {
           "id": "bnss-ch23",
-          "title": "Chapter XXIII — Plea Bargaining (Sections 289–300)",
+          "title": "Chapter XXIII — Plea Bargaining",
           "sections": [
             {
               "id": "bnss-289",
@@ -6852,7 +6852,7 @@
         },
         {
           "id": "bnss-ch24",
-          "title": "Chapter XXIV — Attendance of Persons Confined or Detained in Prisons (Sections 301–306)",
+          "title": "Chapter XXIV — Attendance of Persons Confined or Detained in Prisons",
           "sections": [
             {
               "id": "bnss-301",
@@ -6918,7 +6918,7 @@
         },
         {
           "id": "bnss-ch25",
-          "title": "Chapter XXV — Evidence in Inquiries and Trials (Sections 307–336)",
+          "title": "Chapter XXV — Evidence in Inquiries and Trials",
           "sections": [
             {
               "id": "bnss-307",
@@ -7224,7 +7224,7 @@
         },
         {
           "id": "bnss-ch26",
-          "title": "Chapter XXVI — General Provisions as to Inquiries and Trials (Sections 337–366)",
+          "title": "Chapter XXVI — General Provisions as to Inquiries and Trials",
           "sections": [
             {
               "id": "bnss-337",
@@ -7530,7 +7530,7 @@
         },
         {
           "id": "bnss-ch27",
-          "title": "Chapter XXVII — Provisions as to Accused Persons of Unsound Mind (Sections 367–378)",
+          "title": "Chapter XXVII — Provisions as to Accused Persons of Unsound Mind",
           "sections": [
             {
               "id": "bnss-367",
@@ -7556,7 +7556,7 @@
         },
         {
           "id": "bnss-ch28",
-          "title": "Chapter XXVIII — Provisions as to Offences Affecting the Administration of Justice (Sections 379–391)",
+          "title": "Chapter XXVIII — Provisions as to Offences Affecting the Administration of Justice",
           "sections": [
             {
               "id": "bnss-369",
@@ -7792,7 +7792,7 @@
         },
         {
           "id": "bnss-ch29",
-          "title": "Chapter XXIX — The Judgment (Sections 392–406)",
+          "title": "Chapter XXIX — The Judgment",
           "sections": [
             {
               "id": "bnss-392",
@@ -7948,7 +7948,7 @@
         },
         {
           "id": "bnss-ch30",
-          "title": "Chapter XXX — Submission of Death Sentences for Confirmation (Sections 407–412)",
+          "title": "Chapter XXX — Submission of Death Sentences for Confirmation",
           "sections": [
             {
               "id": "bnss-407",
@@ -8014,7 +8014,7 @@
         },
         {
           "id": "bnss-ch31",
-          "title": "Chapter XXXI — Appeals (Sections 413–435)",
+          "title": "Chapter XXXI — Appeals",
           "sections": [
             {
               "id": "bnss-413",
@@ -8250,7 +8250,7 @@
         },
         {
           "id": "bnss-ch32",
-          "title": "Chapter XXXII — Reference and Revision (Sections 436–445)",
+          "title": "Chapter XXXII — Reference and Revision",
           "sections": [
             {
               "id": "bnss-436",
@@ -8356,7 +8356,7 @@
         },
         {
           "id": "bnss-ch33",
-          "title": "Chapter XXXIII — Transfer of Criminal Cases (Sections 446–452)",
+          "title": "Chapter XXXIII — Transfer of Criminal Cases",
           "sections": [
             {
               "id": "bnss-446",
@@ -8432,7 +8432,7 @@
         },
         {
           "id": "bnss-ch34",
-          "title": "Chapter XXXIV — Execution, Suspension, Remission and Commutation of Sentences (Sections 453–477)",
+          "title": "Chapter XXXIV — Execution, Suspension, Remission and Commutation of Sentences",
           "sections": [
             {
               "id": "bnss-453",
@@ -8688,7 +8688,7 @@
         },
         {
           "id": "bnss-ch35",
-          "title": "Chapter XXXV — Provisions as to Bail and Bonds (Sections 478–496)",
+          "title": "Chapter XXXV — Provisions as to Bail and Bonds",
           "sections": [
             {
               "id": "bnss-478",
@@ -8884,7 +8884,7 @@
         },
         {
           "id": "bnss-ch36",
-          "title": "Chapter XXXVI — Disposal of Property (Sections 497–505)",
+          "title": "Chapter XXXVI — Disposal of Property",
           "sections": [
             {
               "id": "bnss-497",
@@ -8980,7 +8980,7 @@
         },
         {
           "id": "bnss-ch37",
-          "title": "Chapter XXXVII — Irregular Proceedings (Sections 506–512)",
+          "title": "Chapter XXXVII — Irregular Proceedings",
           "sections": [
             {
               "id": "bnss-506",
@@ -9056,7 +9056,7 @@
         },
         {
           "id": "bnss-ch38",
-          "title": "Chapter XXXVIII — Limitation for Taking Cognizance of Certain Offences (Sections 513–519)",
+          "title": "Chapter XXXVIII — Limitation for Taking Cognizance of Certain Offences",
           "sections": [
             {
               "id": "bnss-513",
@@ -9132,7 +9132,7 @@
         },
         {
           "id": "bnss-ch39",
-          "title": "Chapter XXXIX — Miscellaneous (Sections 520–531)",
+          "title": "Chapter XXXIX — Miscellaneous",
           "sections": [
             {
               "id": "bnss-520",
@@ -9265,7 +9265,7 @@
       "chapters": [
         {
           "id": "bsa-ch1",
-          "title": "Chapter I — Preliminary (Sections 1–2)",
+          "title": "Chapter I — Preliminary",
           "sections": [
             {
               "id": "bsa-1",
@@ -9291,7 +9291,7 @@
         },
         {
           "id": "bsa-ch2",
-          "title": "Chapter II — Relevancy of Facts (Sections 3–50)",
+          "title": "Chapter II — Relevancy of Facts",
           "sections": [
             {
               "id": "bsa-3",
@@ -9777,7 +9777,7 @@
         },
         {
           "id": "bsa-ch3",
-          "title": "Chapter III — Facts Which Need Not Be Proved (Sections 51–53)",
+          "title": "Chapter III — Facts Which Need Not Be Proved",
           "sections": [
             {
               "id": "bsa-51",
@@ -9813,7 +9813,7 @@
         },
         {
           "id": "bsa-ch4",
-          "title": "Chapter IV — Of Oral Evidence (Sections 54–55)",
+          "title": "Chapter IV — Of Oral Evidence",
           "sections": [
             {
               "id": "bsa-54",
@@ -9839,7 +9839,7 @@
         },
         {
           "id": "bsa-ch5",
-          "title": "Chapter V — Of Documentary Evidence (Sections 56–93)",
+          "title": "Chapter V — Of Documentary Evidence",
           "sections": [
             {
               "id": "bsa-56",
@@ -10225,7 +10225,7 @@
         },
         {
           "id": "bsa-ch6",
-          "title": "Chapter VI — Of the Exclusion of Oral Evidence by Documentary Evidence (Sections 94–103)",
+          "title": "Chapter VI — Of the Exclusion of Oral Evidence by Documentary Evidence",
           "sections": [
             {
               "id": "bsa-94",
@@ -10331,7 +10331,7 @@
         },
         {
           "id": "bsa-ch7",
-          "title": "Chapter VII — Of the Burden of Proof (Sections 104–120)",
+          "title": "Chapter VII — Of the Burden of Proof",
           "sections": [
             {
               "id": "bsa-104",
@@ -10507,7 +10507,7 @@
         },
         {
           "id": "bsa-ch8",
-          "title": "Chapter VIII — Estoppel (Sections 121–123)",
+          "title": "Chapter VIII — Estoppel",
           "sections": [
             {
               "id": "bsa-121",
@@ -10543,7 +10543,7 @@
         },
         {
           "id": "bsa-ch9",
-          "title": "Chapter IX — Of Witnesses (Sections 124–139)",
+          "title": "Chapter IX — Of Witnesses",
           "sections": [
             {
               "id": "bsa-124",
@@ -10709,7 +10709,7 @@
         },
         {
           "id": "bsa-ch10",
-          "title": "Chapter X — Of Examination of Witnesses (Sections 140–168)",
+          "title": "Chapter X — Of Examination of Witnesses",
           "sections": [
             {
               "id": "bsa-140",
@@ -11005,7 +11005,7 @@
         },
         {
           "id": "bsa-ch11",
-          "title": "Chapter XI — Of Improper Admission and Rejection of Evidence (Section 169)",
+          "title": "Chapter XI — Of Improper Admission and Rejection of Evidence",
           "sections": [
             {
               "id": "bsa-169",
@@ -11021,7 +11021,7 @@
         },
         {
           "id": "bsa-ch12",
-          "title": "Chapter XII — Repeal and Savings (Section 170)",
+          "title": "Chapter XII — Repeal and Savings",
           "sections": [
             {
               "id": "bsa-170",

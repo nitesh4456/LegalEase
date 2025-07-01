@@ -77,7 +77,7 @@
     if (currentLocationBtn) currentLocationBtn.addEventListener('click', useCurrentLocation);
 
     // ✅ Fetch JSON details from external file
-    fetch('js/police_stations.json')
+    fetch('data/police_stations.json')
     .then(response => {
         if (!response.ok) throw new Error('Failed to load police stations data.');
         return response.json();

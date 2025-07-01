@@ -78,6 +78,18 @@
 
     // ✅ Fetch JSON details from external file
     fetch('data/police_stations.json')
+    // .then(response => {
+    //     if (!response.ok) throw new Error('Failed to load police stations data.');
+    //     return response.json();
+    // })
+    // .then(data => {
+    //     policeData = data;
+    //     console.log(`Loaded ${policeData.police_stations.length} police stations.`);
+    // })
+    // .catch(err => {
+    //     console.error(err);
+    //     alert('Could not load police stations data. Please try again later.');
+    // });
     .then(response => {
         if (!response.ok) throw new Error('Failed to load police stations data.');
         return response.json();
@@ -85,6 +97,17 @@
     .then(data => {
         policeData = data;
         console.log(`Loaded ${policeData.police_stations.length} police stations.`);
+        
+        // Choose a random sample of 10-15 stations
+        const shuffled = policeData.police_stations
+        .map(value => ({ value, sort: Math.random() })) // decorate with random sort keys
+        .sort((a, b) => a.sort - b.sort)               // sort randomly
+        .map(({ value }) => value);                    // undecorate
+
+        const randomCount = Math.min(15, Math.max(10, Math.floor(Math.random() * 6) + 10)); // 10-15
+        const randomSample = shuffled.slice(0, randomCount);
+
+        renderStations(randomSample);  // 
     })
     .catch(err => {
         console.error(err);

@@ -1487,17 +1487,6 @@ textarea {
 }
 
 /* Responsive Styles */
-
-@media (max-width: 767px) {
-  /*changed for visi*/
-  .mobile-nav {
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
-  }
-  /*changed for visi*/
-}
-
 @media (min-width: 640px) {
   .hero-buttons {
     flex-direction: row;

@@ -6,7 +6,6 @@
   <title>LegalBot - LegalEase</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="css/legal_bot.css">
 </head>
 <body>
   <!-- Navigation -->
@@ -66,30 +65,33 @@
           </select>
         </div>
       </div>
-      <!--here div and i frame has the same size-->
-      <div class="chatbase"><iframe 
-        src="https://www.chatbase.co/chatbot-iframe/v7J8xuJ2duPY7ScvZ2NvO"
-        width="100%"
-        style="height:100%;"
-        frameborder="0"
-        ></iframe>
+
+      <div class="chat-messages" id="chat-messages">
+        <!-- Messages will be added here by JavaScript -->
       </div>
-    </div>
-  </div>
-  <div id="quick-questions" class="quick-questions">
+
+      <div id="quick-questions" class="quick-questions">
         <p>Quick questions to get started:</p>
         <div class="quick-questions-grid">
           <button class="quick-question-btn">How to file an FIR?</button>
           <button class="quick-question-btn">RTI application process</button>
-          <button class="quick-question-btn">Rights of Woman</button>
+          <button class="quick-question-btn">Find a lawyer near me</button>
           <button class="quick-question-btn">Property dispute help</button>
           <button class="quick-question-btn">Consumer rights</button>
           <button class="quick-question-btn">Domestic violence support</button>
         </div>
+      </div>
+
+      <div class="chat-input">
+        <input type="text" id="message-input" placeholder="Ask your legal question...">
+        <button id="send-btn" class="btn btn-primary">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
   </div>
 
-
   <script src="js/main.js"></script>
-  <!-- <script src="js/legalbot.js"></script> -->
+  <script src="js/legalbot.js"></script>
 </body>
 </html>

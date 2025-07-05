@@ -1487,7 +1487,8 @@ textarea {
 }
 
 /* Responsive Styles */
-@media (min-width: 640px) {
+
+@media (max-width: 767px) {
   /*changed for visi*/
   .mobile-nav {
     display: flex;
@@ -1495,6 +1496,9 @@ textarea {
     gap: 0.25rem;
   }
   /*changed for visi*/
+}
+
+@media (min-width: 640px) {
   .hero-buttons {
     flex-direction: row;
     justify-content: center;

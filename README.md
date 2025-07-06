@@ -29,7 +29,7 @@ Navigating legal processes is often complex and costly for the general public, w
 
 ## 🌐 Live Demo
 
-[🌐 Legalese Live Demo](https://nitesh4456.github.io/LegalEase/)
+[🌐 Legalese Live Demo](https://nitesh4456.github.io/Legalese/)
 
 ---
 

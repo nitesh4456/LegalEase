@@ -1,5 +1,4 @@
-````markdown
-# Legalese
+# 🏛️ Legalese
 
 A dual-purpose web app offering:
 
@@ -10,7 +9,7 @@ A dual-purpose web app offering:
 
 ## 🧭 Inspiration
 
-Navigating legal processes is often complex and costly for the general public, while lawyers spend countless hours researching case law. LegalEase aims to democratize access to legal guidance and streamline professional research :contentReference[oaicite:1]{index=1}.
+Navigating legal processes is often complex and costly for the general public, while lawyers spend countless hours researching case law. LegalEase aims to democratize access to legal guidance and streamline professional research.
 
 ---
 
@@ -19,37 +18,40 @@ Navigating legal processes is often complex and costly for the general public, w
 ### Public-Facing Virtual Law Assistant
 - Chatbot-style interface  
 - Offers step-by-step legal guidance tailored to individual situations  
-- Helps non-experts understand their rights and next steps :contentReference[oaicite:2]{index=2}
+- Helps non-experts understand their rights and next steps
 
 ### Analysis Tool for Lawyers
 - Searches related cases for a specified legal section  
 - Analyzes and summarizes precedent outcomes  
-- Aids in building stronger legal arguments :contentReference[oaicite:3]{index=3}
+- Aids in building stronger legal arguments
 
 ---
- 
-## 🌐 Live demo : https://nitesh4456.github.io/LegalEase/
+
+## 🌐 Live Demo
+
+[🌐 Legalese Live Demo](https://nitesh4456.github.io/LegalEase/)
+
+---
 
 ## 🧱 Tech Stack
 
 - **AI & Automation**: OpenAI API and custom prompts  
-- **Backend & Webscraping**: Python,Selenium  
-- **Data**: JSON / local DB for storing scraped case info :contentReference[oaicite:4]{index=4}
+- **Backend & Web Scraping**: Python, Selenium  
+- **Data**: JSON / local DB for storing scraped case info
 
 ---
 
 ## 🔮 Future Roadmap
 
-- Broader legal database (incl. international law)  
+- Broader legal database (including international law)  
 - Voice assistant integration  
 - Mobile app version  
-- LLM improvements via LangChain;
+- LLM improvements via LangChain
 
 ---
 
 ## 🚀 Getting Started
 
-1. Clone the repo:<br/>
+1. Clone the repository:
    ```bash
    git clone https://github.com/nitesh4456/LegalEase.git
-````
